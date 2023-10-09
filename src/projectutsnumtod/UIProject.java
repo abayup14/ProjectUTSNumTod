@@ -351,7 +351,7 @@ public class UIProject extends javax.swing.JFrame {
                             break;
                         }
                     }
-                    labelFin.setText("Hasil pendekatan akar f(x) pada akar adalah " + x_sekarang + ".");
+                    labelFin.setText("Hasil pendekatan akar f(x) pada akar adalah " + x_sekarang);
 
                 } else if (data instanceof MetodeTertutup) {
                     double x_lower, x_upper;
@@ -397,7 +397,7 @@ public class UIProject extends javax.swing.JFrame {
                             }
                         }
 
-                        labelFin.setText("Hasil pendekatan akar f(x) pada akar " + akarX1 + " dan " + akarX2 + " adalah " + x_sekarang + ".");
+                        labelFin.setText("Hasil pendekatan akar f(x) pada akar " + akarX1 + " dan " + akarX2 + " adalah " + x_sekarang);
                     } else {
                         JOptionPane.showMessageDialog(this, "Hasil akar x1 dan x2 memiliki tanda yang sama.\nSilahkan ganti akar x1 dan x2 sehingga tandanya berbeda.");
                         clearTextTable();
