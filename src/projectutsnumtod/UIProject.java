@@ -402,13 +402,11 @@ public class UIProject extends javax.swing.JFrame {
                         JOptionPane.showMessageDialog(this, "Hasil akar x1 dan x2 memiliki tanda yang sama.\nSilahkan ganti akar x1 dan x2 sehingga tandanya berbeda.");
                         clearTextTable();
                     }
-
                 }
             }
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, e);
         }
-
     }//GEN-LAST:event_btnHitungActionPerformed
 
     /**
