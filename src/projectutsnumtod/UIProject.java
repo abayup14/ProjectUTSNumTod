@@ -355,6 +355,7 @@ public class UIProject extends javax.swing.JFrame {
 
                 } else if (data instanceof MetodeTertutup) {
                     double x_lower, x_upper;
+                    tableResult.setModel(new TableModel("1"));
                     if (data.Hitung_f_x(akarX1) * data.Hitung_f_x(akarX2) < 0) {
                         if (akarX1 > akarX2) {
                             x_lower = akarX2;
